@@ -37,15 +37,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 Create a .env file with your OpenAI key:
-
-ini
-Copy
-Edit
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ▶️ Run the App
-bash
-Copy
-Edit
 streamlit run streamlit_app.py
 Visit http://localhost:8501
 
